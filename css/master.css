@@ -1,0 +1,310 @@
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.contan {
+  width: 100%;
+  height: 100vb;
+  background-color: #D9A78C;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+ 
+}
+.sec-one {
+  width: 100%;
+  height: 150vb;
+  background-color: #1E1E1E;
+  border-radius: 50%;
+  position: absolute;
+  top: -25.25%;
+  left: -34.5%;
+}
+.sec-two {
+  width: 100%;
+  height: 150vb;
+  background-color: #1E1E1E;
+  border-radius: 50%;
+  position: absolute;
+  top: -25%;
+  right: -67.25%;
+}
+ .p-1 {
+  width: 320px;
+  height: 375px;
+  position: absolute;
+  top: 17.5%;
+  right: 21%;
+}
+.sec-two .menu {
+  position: absolute;
+  left: 28%;
+  top: 20%;
+  color: #d4d4d4;
+  text-decoration: none;
+}
+.menu:hover {
+  cursor: pointer;
+}
+.sec-two .cr {
+  color: #d4d4d4;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 20.5%;
+  left: 17%;
+  text-decoration: none;
+}
+.sec-two .model {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  border: 1px solid #d4d4d4;
+  border-radius: 20px;
+  position: absolute;
+  top: 43%;
+  left: 18%;
+}
+.cursor-top {
+  color: #d4d4d4;
+  position: absolute;
+  top: 38%;
+  left: 21.75%;
+  cursor: pointer;
+}
+.cursor-bot {
+  color: #d4d4d4;
+  position: absolute;
+  top: 60%;
+  left: 21.75%;
+  cursor: pointer;
+}
+.p-2 {
+  height: 156px;
+  width: 120px;
+  position: absolute;
+  top: -17%;
+  right: -2%;
+}
+.cir {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #d4d4d4;
+  color: #d4d4d4;
+  border-radius: 50%;
+  position: absolute;
+  top: 72%;
+  left: 21.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 4px;
+}
+.cart {
+  color: #d4d4d4;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  position: absolute;
+  top: 90%;
+  left: 63%;
+}
+.sec-one .nav-1 {
+  width: 350px;
+  height: 40px;
+  position: absolute;
+  right: 32%;
+  top: 20%;
+}
+.sec-one .nav-1 ul li {
+  float: left;
+  margin-top: 8px;
+  margin-left: 60px;
+  list-style: none;
+}
+.sec-one .nav-1 ul li a {
+  color: #d4d4d4;
+  text-decoration: none;
+  font-size: 14px;
+}
+ .logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 3px !important;
+  margin-left: -10px !important;
+}
+.sec-one .nav-2 {
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  right: 40%;
+  top: 37%;
+ 
+}
+.sec-one .nav-2 ul li {
+  float:inline-start;
+  margin-top: 30px;
+  list-style: none;
+}
+.sec-one .nav-2 ul li a {
+  color: #a3a0a0;
+  text-decoration: none;
+  font-size: 12px;
+}
+.select {
+  color: #d4d4d4 !important;
+  font-weight: bold;
+}
+p {
+  color: #d4d4d4;
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 1.4;
+  position: absolute;
+  right: 25%;
+  top: 30%;
+}
+p .s-1 {
+  color: #1E1E1E;
+  text-shadow: -1px -1px 0 #d4d4d4,1px 1px 0 #d4d4d4;
+}
+.s-2 {
+  color: #d4d4d4;
+  font-size: 30px;
+  margin-top: -40px;
+  position: absolute;
+  right: 39%;
+  top: 62%;
+} 
+.p-3 {
+  width: 350px;
+  height: 120px;
+  background-image: url(../media/kwarcowy-zegarek-damski-fossil-fossil-q-gen-5-smartwatch-julianna-hr-black-ftw6036-6.jpg);
+  background-size: cover;
+  background-position: left center;
+  position: absolute;
+  top: 72%;
+  right: 22%;
+}
+.ex {
+  color: #d4d4d4;
+  font-size: 14px;
+  position: absolute;
+  top: 78%;
+  right: 56%;
+  text-decoration: none;
+}
+.south {
+  vertical-align: middle;
+}
+@media (max-width: 767px) {
+  .sec-one {
+    height: 120vb;
+    top: -10%;
+    left: -41.5%;
+  }
+  .sec-two {
+    height: 120vb;
+    top: -10%;
+    right: -67%;
+  }
+  .p-1 {
+    width: 120px;
+    height: 220px;
+    top: 35%;
+    right: 22%;
+  }
+  .sec-two .menu {
+    left: 26%;
+  }
+  .sec-two .cr {
+    font-size: 11px;
+    top: 20.5%;
+    left: 12%;
+  }
+  .sec-two .model {
+    width: 60px;
+    height: 80px;
+    top: 48%;
+    left: 13%;
+  }
+  .p-2 {
+    height: 105px;
+    width: 100px;
+    top: -18.5%;
+    right: -36%;
+  }
+  .cursor-top {
+    top: 44%;
+    left: 17.75%;
+  }
+  .cursor-bot {
+    top: 58.5%;
+    left: 17.75%;
+  }
+  .cir {
+    width: 35px;
+    height: 35px;
+    top: 72%;
+    left: 16%;
+    letter-spacing: 1px;
+  }
+  .cart {
+    font-size: 12px;
+    top: 80%;
+    left: 54%;
+  }
+  .sec-one .nav-1 {
+    width: 200px;
+    right: 11%;
+    top: 19.5%;
+  }
+  .sec-one .nav-1 ul li {
+    margin-left: 18px;
+  }
+  .sec-one .nav-1 ul li a {
+    font-size: 11px;
+  }
+   .logo {
+    margin-top: 4px !important;
+    margin-left: -8px !important;
+  }
+  p {
+    font-size: 40px;
+    font-weight: 900;
+    right: 10%;
+    top: 32%;
+  }
+  .s-2 {
+    font-size: 15px;
+    right: 28%;
+    top: 50%;
+  } 
+  .sec-one .nav-2 {
+    width: 200px;
+    right: 12%;
+    top: 38%;
+  }
+  .p-3 {
+    width: 210px;
+    height: 130px;
+    top: 66%;
+    right: 10%;
+  }
+  .ex {
+    top: 82%;
+    right: 22%;
+  }
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
