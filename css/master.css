@@ -200,7 +200,7 @@ p .s-1 {
 .south {
   vertical-align: middle;
 }
-@media (max-width: 767px) {
+@media (max-width: 375px) {
   .sec-one {
     height: 120vb;
     top: -10%;
